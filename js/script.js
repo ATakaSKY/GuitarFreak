@@ -3,6 +3,7 @@ $(function(){
 	"use strict";
 
 	var topOffset = 50;
+	var slideqty = $('#featured .item').length;
 
 	$('.carousel').carousel({
   	interval: false
@@ -46,5 +47,11 @@ $(function(){
 	    }
 	  });
 
+
+	  //Automatically generate carousel indicators
+	  for (var i=0; i < slideqty; i++) {
+	    var insertText = '<li data-target="#featured" data-slide-to="' + i + '"></li>';
+	    $('#featured ol').append(insertText);
+	  }
 
 });
