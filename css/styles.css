@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header .navbar {
   padding: 30px 0;
+  transition: .5s ease-out;
 }
 
 header .navbar-default {
@@ -59,12 +60,13 @@ header .navbar-default .navbar-nav .active a:hover {
 
 /**  Navbar Brand **/
 
-/*header .navbar-brand {
+header .navbar-brand {
   background: url(../images/acoustic_guitar.svg);
   background-repeat: no-repeat;
- background-size:contain;
- 
-}*/
+ background-size:30px;
+ background-position: 75px 0;
+ min-height: 100px
+}
 
 header .navbar-brand h1 {
   color: white;
@@ -95,6 +97,38 @@ header .navbar-toggle {
 	header .navbar-collapse.in {
   background-color: rgba(0,0,0, .5)
 	}
+}
+
+/*Navbar inbody*/
+header .inbody {
+  background: rgba(0,0,0,.9);
+}
+
+header .navbar.inbody {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header .navbar.inbody .navbar-nav {
+  padding-top: 10px;
+}
+
+header .inbody .navbar-brand {
+  background-size: 15px;
+  background-position: 50px 0;
+  margin-top: 5px;
+  padding-bottom: 0;
+  margin-left: 10px;
+  min-height: 40px
+}
+
+header .inbody .navbar-brand h1 {
+  font-size: 1.1em;
+  padding-left: 58px;
+}
+
+header .inbody .navbar-brand span.subhead {
+  display: none;
 }
 
 /**  Page -- Mission **/
