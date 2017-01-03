@@ -181,28 +181,31 @@ header .inbody .navbar-brand span.subhead {
   border-top: 20px solid rgba(238, 200, 86, .5);
 }
 
-/**  Page -- techniques **/
+/**  Page -- types **/
 
-.technique {
+.type {
   margin: 20px 0;
   text-align: center;
 }
 
-#techniques img.icon {
+#types img.icon {
   display: block;
   width: 80px;
   margin: 0 auto;
   margin-bottom: 5px;
+  border-radius:100px 
 }
 
-#techniques h3 {
+#types h3 {
   margin-bottom: 10px;
 }
+
+
 
 @media only screen 
 and (min-width: 450px)
 and (max-width: 768px) {
-  .technique p {
+  .type p {
     padding: 0 20%;
   }
 }
@@ -265,23 +268,23 @@ and (max-width: 768px) {
   background-color: rgba(239,240,196,.9);
 }
 
-#testimonials #janeh {
-  background: url(../images/testimonial-janeh.jpg) no-repeat center center;
+#testimonials #sam {
+  background: url(../images/Sam.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#testimonials #johnb {
-  background: url(../images/testimonial-johnb.jpg) no-repeat center center;
+#testimonials #reed {
+  background: url(../images/Reed.jpg) no-repeat;
   background-size: cover;
 }
 
-#testimonials #mcphersons {
-  background: url(../images/testimonial-mcphersons.jpg) no-repeat center center;
+#testimonials #glenn {
+  background: url(../images/Glenn.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#testimonials #lorraines {
-  background: url(../images/testimonial-lorraines.jpg) no-repeat center center;
+#testimonials #daniel {
+  background: url(../images/daniel.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -304,7 +307,7 @@ and (max-width: 768px) {
   display: block;
   opacity: 1;
   font-size: .8em;
-  line-height: 120%;
+  line-height: 100%;
 }
 
 #testimonials .quote:hover .customer {
