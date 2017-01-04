@@ -83,6 +83,13 @@ header .navbar-brand span.subhead {
   font-weight: 100;
 }
 
+@media only screen and (max-width: 768px){
+  header .navbar-brand h1{
+    padding-top: 10px;
+    padding-left: 115px
+  }
+}
+
 /*Navbar-toggle*/
 header .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
@@ -132,6 +139,15 @@ header .inbody .navbar-brand h1 {
 
 header .inbody .navbar-brand span.subhead {
   display: none;
+}
+
+@media only screen and (max-width: 768px){
+  header .inbody .navbar-brand h1 {
+  font-size: 1.1em;
+  padding-left: 68px;
+  padding-top: 10px;
+}
+
 }
 
 /**  Carousel Fade **/
